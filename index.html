@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Odilon Neves | Psicólogo Clínico e Psicanalista</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Odilon Neves - Psicólogo Clínico e Psicanalista (CRP 13/13938). Um espaço de escuta, acolhimento e reflexão para compreender aquilo que nem sempre conseguimos colocar em palavras. Atendimento presencial e online.">
+  <meta name="author" content="Odilon Neves">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph / Redes Sociais -->
+  <meta property="og:title" content="Odilon Neves | Psicólogo Clínico e Psicanalista">
+  <meta property="og:description" content="Às vezes, entender o que sentimos é o primeiro passo para transformar a forma como vivemos.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:image" content="assets/images/odilon_portrait_hero.jpg">
+  
+  <!-- Google Fonts: Cormorant Garamond & Manrope -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- Acessibilidade -->
+  <a href="#main-content" class="skip-link" style="position: absolute; top: -60px; left: 20px; background: #10261D; color: #EAE2D8; padding: 10px 16px; border-radius: 4px; z-index: 2000; transition: top 0.2s ease;">Pular para o conteúdo principal</a>
+
+  <!-- =========================================================================
+       01. HEADER & NAVEGAÇÃO
+       ========================================================================= -->
+  <header class="site-header" id="header">
+    <div class="container">
+      <div class="header-inner">
+        
+        <!-- Logo / Marca -->
+        <a href="#inicio" class="brand-logo" aria-label="Odilon Neves Psicólogo Clínico">
+          <img src="assets/images/Simbolo_Odilon_Neves.png" alt="Símbolo Odilon Neves" class="brand-symbol">
+          <img src="assets/images/logo_Odilon_Neves_header.svg" alt="Odilon Neves Psicólogo Clínico" class="brand-logo-img">
+        </a>
+
+        <!-- Menu Desktop -->
+        <nav class="nav-desktop" aria-label="Navegação Principal">
+          <a href="#inicio" class="nav-link">Início</a>
+          <a href="#sobre" class="nav-link">Sobre</a>
+          <a href="#abordagem" class="nav-link">Abordagem</a>
+          <a href="#atuacao" class="nav-link">Atuação</a>
+          <a href="#duvidas" class="nav-link">Dúvidas</a>
+          <a href="#contato" class="nav-link">Contato</a>
+        </nav>
+
+        <!-- CTA Header Desktop -->
+        <div class="header-cta-desktop">
+          <a href="https://wa.me/5583996699755?text=Ol%C3%A1%2C%20Odilon.%20Gostaria%20de%20agendar%20uma%20conversa." target="_blank" rel="noopener noreferrer" class="btn btn-header-cta">
+            Agendar conversa
+          </a>
+        </div>
+
+        <!-- Botão Mobile Hambúrguer -->
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Abrir menu de navegação" aria-expanded="false" aria-controls="mobile-drawer">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <button class="mobile-drawer-close" id="mobile-drawer-close" type="button" aria-label="Fechar menu de navegação">
+      <i data-lucide="x"></i>
+    </button>
+
+    <div class="mobile-drawer-brand">
+      <img src="assets/images/Simbolo_Odilon_Neves.png" alt="Símbolo Odilon Neves" class="drawer-symbol">
+      <img src="assets/images/logo_Odilon_Neves_header.svg" alt="Odilon Neves Psicólogo Clínico" class="drawer-logo-img">
+    </div>
+
+    <nav class="mobile-nav-list" aria-label="Navegação Mobile">
+      <a href="#inicio" class="mobile-nav-link"><span>Início</span> <i data-lucide="chevron-right"></i></a>
+      <a href="#sobre" class="mobile-nav-link"><span>Sobre</span> <i data-lucide="chevron-right"></i></a>
+      <a href="#abordagem" class="mobile-nav-link"><span>Abordagem</span> <i data-lucide="chevron-right"></i></a>
+      <a href="#atuacao" class="mobile-nav-link"><span>Atuação</span> <i data-lucide="chevron-right"></i></a>
+      <a href="#duvidas" class="mobile-nav-link"><span>Dúvidas</span> <i data-lucide="chevron-right"></i></a>
+      <a href="#contato" class="mobile-nav-link"><span>Contato</span> <i data-lucide="chevron-right"></i></a>
+    </nav>
+    <div class="mobile-drawer-footer">
+      <a href="https://wa.me/5583996699755?text=Ol%C3%A1%2C%20Odilon.%20Gostaria%20de%20agendar%20uma%20conversa." target="_blank" rel="noopener noreferrer" class="btn btn-gold">
+        Agendar conversa
+      </a>
+      <p>CRP 13/13938 · Atendimento Presencial e Online</p>
+    </div>
+  </div>
+
+  <main id="main-content">
+    
+    <!-- =========================================================================
+         02. HERO SECTION
+         ========================================================================= -->
+    <section class="hero-section" id="inicio">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <div class="hero-content reveal">
+            <h1 class="hero-headline">
+              Às vezes, entender o que sentimos é o primeiro passo para transformar a forma como vivemos.
+            </h1>
+            <p class="hero-description">
+              Um espaço de escuta, acolhimento e reflexão para compreender aquilo que nem sempre conseguimos colocar em palavras.
+            </p>
+            
+            <div class="hero-actions">
+              <a href="#identificacao" class="btn btn-primary">
+                Quero conhecer o trabalho
+              </a>
+              <a href="https://wa.me/5583996699755?text=Ol%C3%A1%2C%20Odilon.%20Gostaria%20de%20saber%20mais%20sobre%20o%20atendimento%20psicoterap%C3%AAutico." target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                Entrar em contato
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-visual-container reveal">
+            <div class="hero-watercolor-bg"></div>
+
+            <div class="hero-image-frame">
+              <img src="assets/images/odilon_portrait_hero.jpg" alt="Odilon Neves - Psicólogo Clínico e Psicanalista" width="600" height="800" loading="eager">
+            </div>
+          </div>
+
+        </div>
+
+        <div class="hero-scroll-indicator">
+          <span>↓</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         03. SEÇÃO DE IDENTIFICAÇÃO ("Talvez você tenha chegado...")
+         ========================================================================= -->
+    <section class="section identificacao-section" id="identificacao">
+      <div class="identificacao-watercolor-left"></div>
+      <div class="identificacao-watercolor-right"></div>
+      
+      <div class="container">
+        
+        <div class="section-header text-center reveal">
+          <h2>Talvez você tenha chegado até aqui porque alguma coisa dentro de você pede atenção.</h2>
+          <p class="text-lead" style="margin-top: 1rem; color: rgba(16, 38, 29, 0.75);">
+            É comum que, em diferentes momentos da vida, surjam questões que nos fazem buscar um espaço de escuta.
+          </p>
+        </div>
+
+        <div class="identificacao-grid">
+          
+          <div class="ident-item reveal">
+            <div class="ident-icon-box">
+              <i data-lucide="wind"></i>
+            </div>
+            <div class="ident-text">Você sente que está sempre tentando dar conta de tudo.</div>
+          </div>
+
+          <div class="ident-item reveal">
+            <div class="ident-icon-box">
+              <i data-lucide="eye"></i>
+            </div>
+            <div class="ident-text">Tem dificuldade para entender o que realmente está sentindo.</div>
+          </div>
+
+          <div class="ident-item reveal">
+            <div class="ident-icon-box">
+              <i data-lucide="rotate-ccw"></i>
+            </div>
+            <div class="ident-text">Repete situações ou relacionamentos que gostaria de compreender.</div>
+          </div>
+
+          <div class="ident-item reveal">
+            <div class="ident-icon-box">
+              <i data-lucide="cloud-rain"></i>
+            </div>
+            <div class="ident-text">Sente ansiedade, angústia ou um vazio que não sabe explicar.</div>
+          </div>
+
+          <div class="ident-item reveal">
+            <div class="ident-icon-box">
+              <i data-lucide="git-branch"></i>
+            </div>
+            <div class="ident-text">Está passando por uma mudança importante na vida.</div>
+          </div>
+
+          <div class="ident-item reveal">
+            <div class="ident-icon-box">
+              <i data-lucide="shield"></i>
+            </div>
+            <div class="ident-text">Tem dificuldade em estabelecer limites.</div>
+          </div>
+
+          <div class="ident-item reveal">
+            <div class="ident-icon-box">
+              <i data-lucide="infinity"></i>
+            </div>
+            <div class="ident-text">Percebe que questões do passado continuam presentes.</div>
+          </div>
+
+          <div class="ident-item reveal">
+            <div class="ident-icon-box">
+              <i data-lucide="message-square"></i>
+            </div>
+            <div class="ident-text">Sente necessidade de falar, mas não encontra espaço.</div>
+          </div>
+
+          <div class="ident-item reveal">
+            <div class="ident-icon-box">
+              <i data-lucide="sparkles"></i>
+            </div>
+            <div class="ident-text">Quer compreender melhor a si mesmo.</div>
+          </div>
+
+        </div>
+
+        <!-- CTA Intermediário -->
+        <div class="inter-cta-card reveal">
+          <h3>Você não precisa ter todas as respostas para começar a conversar.</h3>
+          <a href="#abordagem" class="btn btn-gold">
+            Conhecer o processo terapêutico
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         04. CAMPO DE ATUAÇÃO (Dark Deep Forest)
+         ========================================================================= -->
+    <section class="section section-forest" id="atuacao">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <h2>Um campo de atuação para diferentes momentos da vida.</h2>
+          <p class="text-lead" style="margin-top: 0.75rem;">
+            A psicoterapia pode ser um espaço importante em diversas situações. Conheça algumas das áreas de atuação.
+          </p>
+        </div>
+
+        <div class="atuacao-grid">
+          
+          <div class="atuacao-card reveal">
+            <div class="atuacao-card-header">
+              <div class="atuacao-card-icon"><i data-lucide="activity"></i></div>
+              <h3>Ansiedade e angústia</h3>
+            </div>
+            <p>Momentos em que a mente parece não conseguir desacelerar.</p>
+          </div>
+
+          <div class="atuacao-card reveal">
+            <div class="atuacao-card-header">
+              <div class="atuacao-card-icon"><i data-lucide="users"></i></div>
+              <h3>Relacionamentos</h3>
+            </div>
+            <p>Dificuldades afetivas, conflitos e questões relacionadas aos vínculos.</p>
+          </div>
+
+          <div class="atuacao-card reveal">
+            <div class="atuacao-card-header">
+              <div class="atuacao-card-icon"><i data-lucide="compass"></i></div>
+              <h3>Autoconhecimento</h3>
+            </div>
+            <p>Desejo de compreender melhor sentimentos, escolhas e comportamentos.</p>
+          </div>
+
+          <div class="atuacao-card reveal">
+            <div class="atuacao-card-header">
+              <div class="atuacao-card-icon"><i data-lucide="refresh-cw"></i></div>
+              <h3>Momentos de mudança</h3>
+            </div>
+            <p>Separações, transições, perdas e novas fases da vida.</p>
+          </div>
+
+          <div class="atuacao-card reveal">
+            <div class="atuacao-card-header">
+              <div class="atuacao-card-icon"><i data-lucide="heart"></i></div>
+              <h3>Questões emocionais</h3>
+            </div>
+            <p>Experiências que geram sofrimento e que podem se beneficiar de um espaço de escuta.</p>
+          </div>
+
+          <div class="atuacao-card reveal">
+            <div class="atuacao-card-header">
+              <div class="atuacao-card-icon"><i data-lucide="scale"></i></div>
+              <h3>Conflitos internos</h3>
+            </div>
+            <p>Quando existe uma distância entre aquilo que queremos, pensamos e fazemos.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         05. SOBRE ODILON NEVES
+         ========================================================================= -->
+    <section class="section" id="sobre">
+      <div class="container">
+        <div class="sobre-grid">
+          
+          <div class="sobre-content reveal">
+            <h2>Sobre Odilon Neves</h2>
+            <p class="text-lead" style="margin-bottom: 1.25rem; font-weight: 500;">
+              Um espaço para falar sobre aquilo que nem sempre encontra espaço para ser dito.
+            </p>
+            <p style="margin-bottom: 1rem;">
+              Meu trabalho parte da escuta cuidadosa daquilo que cada pessoa traz para o processo terapêutico. Mais do que oferecer respostas prontas, a psicoterapia pode abrir espaço para compreender conflitos, desejos, relações e experiências que atravessam a vida.
+            </p>
+            
+            <div style="margin-top: 1.75rem;">
+              <a href="#formacao" class="btn btn-gold">
+                Conheça minha formação
+              </a>
+            </div>
+
+            <!-- Badges informativos em linha -->
+            <div class="sobre-badges-row">
+              <div class="sobre-badge-item">
+                <i data-lucide="user"></i>
+                <span class="sobre-badge-text">Psicólogo Clínico / Psicanalista</span>
+              </div>
+              <div class="sobre-badge-item">
+                <i data-lucide="shield-check"></i>
+                <span class="sobre-badge-text">CRP 13/13938</span>
+              </div>
+              <div class="sobre-badge-item">
+                <i data-lucide="monitor"></i>
+                <span class="sobre-badge-text">Atendimento Presencial e Online</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sobre-photo-wrapper reveal">
+            <div class="sobre-photo-watercolor"></div>
+            <div class="sobre-photo-frame">
+              <img src="assets/images/consultorio_space.jpg" alt="Consultório acolhedor de psicologia clínica" width="700" height="525" loading="lazy">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         06. FORMAÇÃO E PERCURSO PROFISSIONAL
+         ========================================================================= -->
+    <section class="section section-sand" id="formacao">
+      <div class="container">
+        <div class="formacao-grid">
+          
+          <div class="formacao-content reveal">
+            <h2 style="margin-bottom: 2.25rem;">Formação e percurso profissional</h2>
+            
+            <div class="formacao-timeline">
+              <div class="formacao-item">
+                <div class="formacao-item-title">Graduação em Psicologia</div>
+                <div class="formacao-item-desc">[Instituição]</div>
+              </div>
+
+              <div class="formacao-item">
+                <div class="formacao-item-title">Formação / Especialização</div>
+                <div class="formacao-item-desc">[Curso ou Instituição]</div>
+              </div>
+
+              <div class="formacao-item">
+                <div class="formacao-item-title">Abordagem</div>
+                <div class="formacao-item-desc">Psicanálise</div>
+              </div>
+
+              <div class="formacao-item">
+                <div class="formacao-item-title">Registro Profissional</div>
+                <div class="formacao-item-desc">CRP 13/13938</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="formacao-photo-frame reveal">
+            <img src="assets/images/formacao_books_bust.jpg" alt="Livros de psicanálise e busto clássico" width="600" height="800" loading="lazy">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         07. ABORDAGEM TEÓRICA
+         ========================================================================= -->
+    <section class="section" id="abordagem">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <h2>Uma escuta que considera a história de cada pessoa.</h2>
+          <p class="text-lead" style="margin-top: 0.75rem;">
+            A psicanálise entende que cada pessoa tem uma história única, e que os sentidos do que vivemos podem ser elaborados a partir da fala, da escuta e do tempo.
+          </p>
+        </div>
+
+        <div class="abordagem-grid">
+          
+          <div class="abordagem-item reveal">
+            <div class="abordagem-item-header">
+              <div class="abordagem-item-icon"><i data-lucide="book-open"></i></div>
+              <h3>O que é a abordagem?</h3>
+            </div>
+            <p>Uma forma de escuta que considera a singularidade de cada pessoa.</p>
+          </div>
+
+          <div class="abordagem-item reveal">
+            <div class="abordagem-item-header">
+              <div class="abordagem-item-icon"><i data-lucide="message-circle"></i></div>
+              <h3>Como funciona?</h3>
+            </div>
+            <p>As sessões acontecem de forma contínua, em um espaço de conversa e reflexão.</p>
+          </div>
+
+          <div class="abordagem-item reveal">
+            <div class="abordagem-item-header">
+              <div class="abordagem-item-icon"><i data-lucide="clock"></i></div>
+              <h3>O que acontece nas sessões?</h3>
+            </div>
+            <p>Um espaço livre para falar sobre o que faz sentido para você, no seu tempo.</p>
+          </div>
+
+          <div class="abordagem-item reveal">
+            <div class="abordagem-item-header">
+              <div class="abordagem-item-icon"><i data-lucide="user-check"></i></div>
+              <h3>Qual é o papel do psicólogo?</h3>
+            </div>
+            <p>Oferecer uma escuta qualificada, ética e acolhedora, ajudando na compreensão das questões que emergem.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         08. COMO FUNCIONA A TERAPIA (4 Passos)
+         ========================================================================= -->
+    <section class="section section-sand" id="processo">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <h2>Como funciona a terapia</h2>
+          <p class="text-lead" style="margin-top: 0.5rem;">
+            O processo é construído de forma singular, considerando o seu momento e as suas necessidades.
+          </p>
+        </div>
+
+        <div class="etapas-grid">
+          
+          <div class="etapa-item reveal">
+            <div class="etapa-num">01</div>
+            <h3>Primeiro contato</h3>
+            <p>Você entra em contato para tirar dúvidas e conhecer melhor o processo.</p>
+          </div>
+
+          <div class="etapa-item reveal">
+            <div class="etapa-num">02</div>
+            <h3>Primeiro encontro</h3>
+            <p>Um espaço inicial para falar sobre o momento que está vivendo.</p>
+          </div>
+
+          <div class="etapa-item reveal">
+            <div class="etapa-num">03</div>
+            <h3>Construção do processo</h3>
+            <p>A partir da escuta, o trabalho terapêutico é construído considerando a sua história.</p>
+          </div>
+
+          <div class="etapa-item reveal">
+            <div class="etapa-num">04</div>
+            <h3>Acompanhamento</h3>
+            <p>As sessões acontecem de forma contínua, respeitando o seu ritmo.</p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         09. "VOCÊ NÃO PRECISA SABER EXATAMENTE..."
+         ========================================================================= -->
+    <section class="section acolhimento-section" id="para-mim">
+      <div class="container">
+        <div class="acolhimento-box reveal">
+          <h2>Você não precisa saber exatamente o que está acontecendo para procurar ajuda.</h2>
+          <p>
+            Muitas pessoas chegam à terapia sem saber exatamente o que dizer ou qual é o problema. Às vezes existe apenas a sensação de que alguma coisa não está bem. Se você sente que gostaria de compreender melhor o que está vivendo, esse pode ser um motivo suficiente para começar uma conversa.
+          </p>
+          <a href="https://wa.me/5583996699755?text=Ol%C3%A1%2C%20Odilon.%20Gostaria%20de%20conversar%20sobre%20o%20processo%20terap%C3%AAutico." target="_blank" rel="noopener noreferrer" class="btn btn-gold">
+            Conversar com Odilon
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         10. DÚVIDAS FREQUENTES (FAQ)
+         ========================================================================= -->
+    <section class="section" id="duvidas">
+      <div class="container">
+        
+        <div class="section-header reveal">
+          <h2>Dúvidas frequentes</h2>
+        </div>
+
+        <div class="faq-list">
+          
+          <div class="faq-item reveal">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Preciso saber o que tenho antes de procurar um psicólogo?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Não. Não é necessário ter um diagnóstico fechado ou saber explicar com precisão o que está sentindo. O processo terapêutico serve justamente para construir e nomear essas questões com calma.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Quanto tempo dura uma sessão?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Cada sessão tem duração média de 50 minutos, garantindo um tempo dedicado e protegido para a escuta e reflexão.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>As sessões são presenciais ou online?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Ambas as modalidades estão disponíveis. O atendimento online é realizado por videochamada com sigilo garantido para pacientes no Brasil e exterior. O atendimento presencial ocorre em consultório privativo.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Com que frequência acontecem as sessões?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Geralmente os atendimentos ocorrem em frequência semanal, com dia e horário fixos combinados entre paciente e psicólogo.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>O que devo falar na primeira sessão?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Não há um roteiro a ser seguido. Você pode falar sobre o que motivou a busca, sobre seu momento atual ou qualquer pensamento espontâneo.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Psicoterapia é apenas para quem está passando por uma crise?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Não. A terapia também é procurada para autoconhecimento, amadurecimento pessoal e compreensão de aspectos da história de vida.</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Tudo o que é conversado é sigiloso?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Sim. O sigilo é um princípio fundamental resguardado rigorosamente pelo Código de Ética Profissional do Psicólogo (CFP).</p>
+            </div>
+          </div>
+
+          <div class="faq-item reveal">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Como funciona o agendamento?</span>
+              <span class="faq-icon">+</span>
+            </button>
+            <div class="faq-content">
+              <p>Basta entrar em contato pelo WhatsApp. Conversaremos brevemente sobre horários disponíveis e alinhamento prático.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         11. CTA FINAL (SPLIT CARD & FOTO)
+         ========================================================================= -->
+    <section class="section" style="padding-bottom: 3.5rem;">
+      <div class="container">
+        <div class="cta-split-wrapper reveal">
+          
+          <div class="cta-split-content">
+            <h2>Talvez o primeiro passo seja simplesmente conversar.</h2>
+            <p>
+              Se você sente que chegou o momento de olhar com mais atenção para aquilo que está vivendo, entre em contato.
+            </p>
+            <div class="cta-split-actions">
+              <a href="https://wa.me/5583996699755?text=Ol%C3%A1%2C%20Odilon.%20Gostaria%20de%20agendar%20uma%20conversa." target="_blank" rel="noopener noreferrer" class="btn btn-gold">
+                Agendar conversa
+              </a>
+              <a href="https://wa.me/5583996699755?text=Ol%C3%A1%2C%20Odilon.%20Gostaria%20de%20falar%20pelo%20WhatsApp." target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="border-color: rgba(234, 226, 216, 0.4); color: var(--color-ivory);">
+                <i data-lucide="message-circle" class="btn-icon"></i>
+                <span>Falar pelo WhatsApp</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="cta-split-image">
+            <img src="assets/images/consultorio_space.jpg" alt="Espaço sereno e acolhedor" loading="lazy">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+         12. CONTATO
+         ========================================================================= -->
+    <section class="section section-sand" id="contato" style="padding-top: 4.5rem; padding-bottom: 4.5rem;">
+      <div class="container">
+        <div class="contato-split-grid">
+          
+          <div class="contato-info reveal">
+            <h2>Contato</h2>
+            <p class="text-lead" style="margin-top: 0.5rem; color: rgba(16, 38, 29, 0.8);">
+              Estou à disposição para tirar suas dúvidas e conversar sobre o processo terapêutico.
+            </p>
+
+            <div class="contato-channels-list">
+              <a href="https://wa.me/5583996699755" target="_blank" rel="noopener noreferrer" class="contato-channel-item">
+                <div class="contato-channel-icon"><i data-lucide="message-circle"></i></div>
+                <div class="contato-channel-info">
+                  <span class="contato-channel-label">WhatsApp</span>
+                  <span class="contato-channel-val">83 9 9669-9755</span>
+                </div>
+              </a>
+
+              <a href="https://instagram.com/odilon.neves.psicologo" target="_blank" rel="noopener noreferrer" class="contato-channel-item">
+                <div class="contato-channel-icon"><i data-lucide="instagram"></i></div>
+                <div class="contato-channel-info">
+                  <span class="contato-channel-label">Instagram</span>
+                  <span class="contato-channel-val">@odilon.neves.psicologo</span>
+                </div>
+              </a>
+
+              <div class="contato-channel-item">
+                <div class="contato-channel-icon"><i data-lucide="shield-check"></i></div>
+                <div class="contato-channel-info">
+                  <span class="contato-channel-label">CRP</span>
+                  <span class="contato-channel-val">13/13938</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="sobre-photo-wrapper reveal">
+            <div class="sobre-photo-frame" style="max-width: 400px;">
+              <img src="assets/images/consultorio_space.jpg" alt="Consultório Odilon Neves" loading="lazy">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- =========================================================================
+       13. FOOTER
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        
+        <a href="#inicio" class="brand-logo brand-logo-footer" aria-label="Odilon Neves">
+          <img src="assets/images/Simbolo_Odilon_Neves.png" alt="Símbolo Odilon Neves" class="brand-symbol">
+          <img src="assets/images/logo_Odilon_Neves.svg" alt="Odilon Neves Psicólogo Clínico" class="brand-logo-img">
+        </a>
+
+        <nav class="footer-nav">
+          <a href="#inicio">Início</a>
+          <a href="#sobre">Sobre</a>
+          <a href="#abordagem">Abordagem</a>
+          <a href="#atuacao">Atuação</a>
+          <a href="#duvidas">Dúvidas</a>
+          <a href="#contato">Contato</a>
+        </nav>
+
+        <div class="footer-socials">
+          <a href="https://wa.me/5583996699755" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="WhatsApp">
+            <i data-lucide="message-circle"></i>
+          </a>
+          <a href="https://instagram.com/odilon.neves.psicologo" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="Instagram">
+            <i data-lucide="instagram"></i>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Odilon Neves. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       MOBILE STICKY BOTTOM BAR
+       ========================================================================= -->
+  <div class="mobile-sticky-bar">
+    <a href="https://wa.me/5583996699755?text=Ol%C3%A1%2C%20Odilon.%20Gostaria%20de%20agendar%20uma%20conversa." target="_blank" rel="noopener noreferrer" class="mobile-sticky-btn">
+      <i data-lucide="message-square" style="width: 18px; height: 18px;"></i>
+      <span>Agendar conversa</span>
+    </a>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
